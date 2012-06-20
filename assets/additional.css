@@ -1,0 +1,15 @@
+/* here's my additional CSS file */
+html body {
+	background: #f00 none;
+}
+
+#backdrop {
+	background-image: url(http://farm8.staticflickr.com/7010/6511361327_bc82b46302_b.jpg);
+}
+
+#content{display:inline-block;width:979.9999999999999px;margin:0 -10px;*zoom:1;zoom:1;}
+@media only screen and (min-width: 961px){#wrapper{width:960px;} #posts{display:inline;float:left;width:700px;margin:0 10px;} #sidebar{display:inline;float:left;width:240px;mar
+@media only screen and (min-width: 768px) and (max-width: 960px){#wrapper{width:730px;} #content{width:750px;} #posts{display:inline;float:left;width:490px;margin:0 10px;} #sid
+@media only screen and (min-width: 480px) and (max-width: 767px){#wrapper{width:480px;} #content{width:500px;} #posts{display:inline;float:left;width:480px;margin:0 10px;} #sid
+@media only screen and (max-width: 480px){#wrapper{width:320px;} #content{width:320px;} #posts{display:inline;float:left;width:320px;margin:0 10px;} #sidebar{display:inline;flo
+#content:before,#content:after{content:"";display:table;}
