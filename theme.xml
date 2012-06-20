@@ -7,6 +7,7 @@
 	<version>1.0</version>
 	<template_engine>rawphpengine</template_engine>
 	<description><![CDATA[This is a child of a simple, open theme.]]></description>
+	<guid>1c539a44-f277-4f2f-823d-ababeec9d15d</guid>
 	<parent>Wazi</parent>
 	
 	<areas>
