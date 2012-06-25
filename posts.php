@@ -1,6 +1,4 @@
-Hi there.
-<?php Utils::debug($theme); ?>
-<?php foreach($posts as $post) echo $theme->content($post); ?>
+<?php foreach($posts as $post) echo $theme->content($post, $context); ?>
 <div class="pagenav">
 	<?php echo $theme->prev_page_link( _t( '&laquo;&nbsp;Newer&nbsp;Posts' ) ); ?>
 	<?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2, 'hideIfSinglePage' => true ) ); ?>
